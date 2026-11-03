@@ -19,7 +19,7 @@ client = get_openai_client(st.secrets["OPENAI_API_KEY"])
 grounding = st.secrets["GROUNDING"]
 
 # Display logo
-image = Image.open("logo.png")
+image = Image.open("bagel_logo.png")
 st.image(image)
 
 # Initialize model
